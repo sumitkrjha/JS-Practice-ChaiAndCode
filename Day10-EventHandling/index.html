@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 10 : Event Handling</title>
+  </head>
+  <style>
+    .bgToggle {
+      background-color: bisque;
+    }
+  </style>
+  <body
+    class="container"
+    style="
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    "
+  >
+    <h2 id="introduction">Hi! This is Sumit Kumar Jha</h2>
+    <img
+      src="profilePhoto.png"
+      alt="Sumit Kumar Jha"
+      style="height: 200px; width: 200px; border-radius: 100px"
+    />
+    <button id="changeIntro">Know What i'm upto</button>
+    <h3>Skills</h3>
+    <ul>
+      <li>ReactJS</li>
+      <li>Tailwind CSS</li>
+      <li>NodeJS</li>
+      <li>ExpressJS</li>
+      <li>MongoDB</li>
+    </ul>
+    <form>
+      <input type="text" id="Name" />
+      <select>
+        <option value="Select one">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+    <p></p>
+    <p id="gender"></p>
+    <h3 id="parent">Items:</h3>
+    <button id="addItem">Add New Items</button>
+    <span id="showItem"></span>
+  </body>
+  <script src="Day10-EventHandling.js"></script>
+</html>
